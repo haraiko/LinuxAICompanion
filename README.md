@@ -3,11 +3,11 @@ AI Deployment Guide
 This guide provides instructions for deploying the project, which includes a Flask application for performing predictions using TinyBERT, along with Redis and RabbitMQ for caching and asynchronous processing, respectively.
 ### Prerequisites
 
-    Docker: Make sure you have Docker installed on your system. You can download and install Docker from here.
+Docker: Make sure you have Docker installed on your system. You can download and install Docker from here.
 
 ### Deployment Steps
 
-    Clone the Repository: Clone this repository to your local machine.
+Clone the Repository: Clone this repository to your local machine.
 
     
 
