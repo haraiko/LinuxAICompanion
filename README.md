@@ -11,13 +11,13 @@ This guide provides instructions for deploying the project, which includes a Fla
 
     
 
-```git clone <repository_url>```
+    git clone <repository_url>
 
 Navigate to Project Directory: Change your current directory to the root directory of the cloned repository.
 
 
 
-```cd <project_directory>```
+    cd <project_directory>
 
 Update Configuration: Edit the config.json file located in the app directory to specify the hostnames and ports for Redis and RabbitMQ if necessary.
 
@@ -25,7 +25,7 @@ Build and Start Docker Containers: Run the following command to build and start 
 
 
 
-    ```docker-compose up --build```
+    docker-compose up --build
 
 This command will build the Docker image for the Flask application and start the containers for Flask, Redis, and RabbitMQ.
 
